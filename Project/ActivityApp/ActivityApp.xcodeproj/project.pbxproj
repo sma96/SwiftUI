@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD42849F2894E339006FB4A6 /* RingViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42849E2894E339006FB4A6 /* RingViewApp.swift */; };
-		CD4284A12894E339006FB4A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4284A02894E339006FB4A6 /* ContentView.swift */; };
-		CD4284A32894E33A006FB4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4284A22894E33A006FB4A6 /* Assets.xcassets */; };
-		CD4284A62894E33A006FB4A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4284A52894E33A006FB4A6 /* Preview Assets.xcassets */; };
+		CD8265FF2890F75300A62FF6 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8265FE2890F75300A62FF6 /* CustomColor.swift */; };
+		CD8266012890F98100A62FF6 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8266002890F98100A62FF6 /* BarChartView.swift */; };
+		CD8266032890FA4700A62FF6 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8266022890FA4700A62FF6 /* ActivityData.swift */; };
+		CD8266052890FA8100A62FF6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8266042890FA8100A62FF6 /* Constants.swift */; };
+		CD8266072891165400A62FF6 /* StandChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8266062891165400A62FF6 /* StandChartView.swift */; };
+		CD82660C2891191E00A62FF6 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82660B2891191E00A62FF6 /* BlurView.swift */; };
+		CD82660E2891199400A62FF6 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82660D2891199400A62FF6 /* RingView.swift */; };
+		CDC449E8288E8B0F00EED436 /* RingViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC449E7288E8B0F00EED436 /* RingViewApp.swift */; };
+		CDC449EA288E8B0F00EED436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC449E9288E8B0F00EED436 /* ContentView.swift */; };
+		CDC449EC288E8B1000EED436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC449EB288E8B1000EED436 /* Assets.xcassets */; };
+		CDC449EF288E8B1000EED436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC449EE288E8B1000EED436 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD42849B2894E339006FB4A6 /* RingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD42849E2894E339006FB4A6 /* RingViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingViewApp.swift; sourceTree = "<group>"; };
-		CD4284A02894E339006FB4A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD4284A22894E33A006FB4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD4284A52894E33A006FB4A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD8265FE2890F75300A62FF6 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		CD8266002890F98100A62FF6 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		CD8266022890FA4700A62FF6 /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		CD8266042890FA8100A62FF6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD8266062891165400A62FF6 /* StandChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandChartView.swift; sourceTree = "<group>"; };
+		CD82660B2891191E00A62FF6 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		CD82660D2891199400A62FF6 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		CDC449E4288E8B0F00EED436 /* ActivityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC449E7288E8B0F00EED436 /* RingViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingViewApp.swift; sourceTree = "<group>"; };
+		CDC449E9288E8B0F00EED436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDC449EB288E8B1000EED436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC449EE288E8B1000EED436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD4284982894E339006FB4A6 /* Frameworks */ = {
+		CDC449E1288E8B0F00EED436 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +46,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD4284922894E339006FB4A6 = {
+		CD8265FD2890F74300A62FF6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CD42849D2894E339006FB4A6 /* RingView */,
-				CD42849C2894E339006FB4A6 /* Products */,
+				CD8265FE2890F75300A62FF6 /* CustomColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CD826608289118C500A62FF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CD8266022890FA4700A62FF6 /* ActivityData.swift */,
+				CD8266042890FA8100A62FF6 /* Constants.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CD826609289118F900A62FF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8266002890F98100A62FF6 /* BarChartView.swift */,
+				CD8266062891165400A62FF6 /* StandChartView.swift */,
+				CDC449E9288E8B0F00EED436 /* ContentView.swift */,
+				CD82660B2891191E00A62FF6 /* BlurView.swift */,
+				CD82660D2891199400A62FF6 /* RingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDC449DB288E8B0F00EED436 = {
+			isa = PBXGroup;
+			children = (
+				CDC449E6288E8B0F00EED436 /* RingView */,
+				CDC449E5288E8B0F00EED436 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD42849C2894E339006FB4A6 /* Products */ = {
+		CDC449E5288E8B0F00EED436 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD42849B2894E339006FB4A6 /* RingView.app */,
+				CDC449E4288E8B0F00EED436 /* ActivityApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD42849D2894E339006FB4A6 /* RingView */ = {
+		CDC449E6288E8B0F00EED436 /* RingView */ = {
 			isa = PBXGroup;
 			children = (
-				CD42849E2894E339006FB4A6 /* RingViewApp.swift */,
-				CD4284A02894E339006FB4A6 /* ContentView.swift */,
-				CD4284A22894E33A006FB4A6 /* Assets.xcassets */,
-				CD4284A42894E33A006FB4A6 /* Preview Content */,
+				CDC449E7288E8B0F00EED436 /* RingViewApp.swift */,
+				CD826609289118F900A62FF6 /* View */,
+				CD826608289118C500A62FF6 /* Data */,
+				CD8265FD2890F74300A62FF6 /* Extension */,
+				CDC449EB288E8B1000EED436 /* Assets.xcassets */,
+				CDC449ED288E8B1000EED436 /* Preview Content */,
 			);
-			path = RingView;
+			name = RingView;
+			path = ActivityApp;
 			sourceTree = "<group>";
 		};
-		CD4284A42894E33A006FB4A6 /* Preview Content */ = {
+		CDC449ED288E8B1000EED436 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CD4284A52894E33A006FB4A6 /* Preview Assets.xcassets */,
+				CDC449EE288E8B1000EED436 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +116,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD42849A2894E339006FB4A6 /* RingView */ = {
+		CDC449E3288E8B0F00EED436 /* ActivityApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD4284A92894E33A006FB4A6 /* Build configuration list for PBXNativeTarget "RingView" */;
+			buildConfigurationList = CDC449F2288E8B1000EED436 /* Build configuration list for PBXNativeTarget "ActivityApp" */;
 			buildPhases = (
-				CD4284972894E339006FB4A6 /* Sources */,
-				CD4284982894E339006FB4A6 /* Frameworks */,
-				CD4284992894E339006FB4A6 /* Resources */,
+				CDC449E0288E8B0F00EED436 /* Sources */,
+				CDC449E1288E8B0F00EED436 /* Frameworks */,
+				CDC449E2288E8B0F00EED436 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RingView;
+			name = ActivityApp;
 			productName = RingView;
-			productReference = CD42849B2894E339006FB4A6 /* RingView.app */;
+			productReference = CDC449E4288E8B0F00EED436 /* ActivityApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD4284932894E339006FB4A6 /* Project object */ = {
+		CDC449DC288E8B0F00EED436 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					CD42849A2894E339006FB4A6 = {
+					CDC449E3288E8B0F00EED436 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = CD4284962894E339006FB4A6 /* Build configuration list for PBXProject "RingView" */;
+			buildConfigurationList = CDC449DF288E8B0F00EED436 /* Build configuration list for PBXProject "ActivityApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +156,49 @@
 				en,
 				Base,
 			);
-			mainGroup = CD4284922894E339006FB4A6;
-			productRefGroup = CD42849C2894E339006FB4A6 /* Products */;
+			mainGroup = CDC449DB288E8B0F00EED436;
+			productRefGroup = CDC449E5288E8B0F00EED436 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD42849A2894E339006FB4A6 /* RingView */,
+				CDC449E3288E8B0F00EED436 /* ActivityApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD4284992894E339006FB4A6 /* Resources */ = {
+		CDC449E2288E8B0F00EED436 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4284A62894E33A006FB4A6 /* Preview Assets.xcassets in Resources */,
-				CD4284A32894E33A006FB4A6 /* Assets.xcassets in Resources */,
+				CDC449EF288E8B1000EED436 /* Preview Assets.xcassets in Resources */,
+				CDC449EC288E8B1000EED436 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD4284972894E339006FB4A6 /* Sources */ = {
+		CDC449E0288E8B0F00EED436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4284A12894E339006FB4A6 /* ContentView.swift in Sources */,
-				CD42849F2894E339006FB4A6 /* RingViewApp.swift in Sources */,
+				CD8266012890F98100A62FF6 /* BarChartView.swift in Sources */,
+				CD82660C2891191E00A62FF6 /* BlurView.swift in Sources */,
+				CD82660E2891199400A62FF6 /* RingView.swift in Sources */,
+				CDC449EA288E8B0F00EED436 /* ContentView.swift in Sources */,
+				CDC449E8288E8B0F00EED436 /* RingViewApp.swift in Sources */,
+				CD8265FF2890F75300A62FF6 /* CustomColor.swift in Sources */,
+				CD8266032890FA4700A62FF6 /* ActivityData.swift in Sources */,
+				CD8266052890FA8100A62FF6 /* Constants.swift in Sources */,
+				CD8266072891165400A62FF6 /* StandChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CD4284A72894E33A006FB4A6 /* Debug */ = {
+		CDC449F0288E8B1000EED436 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +259,7 @@
 			};
 			name = Debug;
 		};
-		CD4284A82894E33A006FB4A6 /* Release */ = {
+		CDC449F1288E8B1000EED436 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +314,14 @@
 			};
 			name = Release;
 		};
-		CD4284AA2894E33A006FB4A6 /* Debug */ = {
+		CDC449F3288E8B1000EED436 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RingView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityApp/Preview Content\"";
 				DEVELOPMENT_TEAM = CQZ4VJH454;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,22 +335,22 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ma.seokwoo.RingView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ma.seokwoo.ActivityApp;
+				PRODUCT_NAME = ActivityApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CD4284AB2894E33A006FB4A6 /* Release */ = {
+		CDC449F4288E8B1000EED436 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RingView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ActivityApp/Preview Content\"";
 				DEVELOPMENT_TEAM = CQZ4VJH454;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,8 +364,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.ma.seokwoo.RingView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.ma.seokwoo.ActivityApp;
+				PRODUCT_NAME = ActivityApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,25 +375,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD4284962894E339006FB4A6 /* Build configuration list for PBXProject "RingView" */ = {
+		CDC449DF288E8B0F00EED436 /* Build configuration list for PBXProject "ActivityApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD4284A72894E33A006FB4A6 /* Debug */,
-				CD4284A82894E33A006FB4A6 /* Release */,
+				CDC449F0288E8B1000EED436 /* Debug */,
+				CDC449F1288E8B1000EED436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD4284A92894E33A006FB4A6 /* Build configuration list for PBXNativeTarget "RingView" */ = {
+		CDC449F2288E8B1000EED436 /* Build configuration list for PBXNativeTarget "ActivityApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD4284AA2894E33A006FB4A6 /* Debug */,
-				CD4284AB2894E33A006FB4A6 /* Release */,
+				CDC449F3288E8B1000EED436 /* Debug */,
+				CDC449F4288E8B1000EED436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD4284932894E339006FB4A6 /* Project object */;
+	rootObject = CDC449DC288E8B0F00EED436 /* Project object */;
 }
