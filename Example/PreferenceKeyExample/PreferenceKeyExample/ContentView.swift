@@ -45,6 +45,7 @@ struct ContentView: View {
             }
             .onPreferenceChange(MyTextPreferenceKey.self) { preferences in
                 for p in preferences {
+                    print("\(p.viewIdx)")
                     self.rects[p.viewIdx] = p.rect
                 }
             }
