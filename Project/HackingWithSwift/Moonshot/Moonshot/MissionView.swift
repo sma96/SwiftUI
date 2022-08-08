@@ -25,13 +25,17 @@ struct MissionView: View {
                         .frame(maxWidth: proxy.size.width * 0.6)
                         .padding(.top)
                     
-                
+                    if let date = mission.launchDate {
+                        Label(date.formatted(date: .complete, time: .omitted), systemImage: "calendar")
+                    }
+                    
                     VStack(alignment: .leading) {
                         Rectangle()
                             .frame(height: 2)
                             .foregroundColor(.lightBackground)
                             .padding(.vertical)
                         
+
                         Text("Mission Highlights")
                             .font(.title.bold())
                             .padding(.bottom, 5)
