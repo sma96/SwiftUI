@@ -7,13 +7,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, TokenManagerDelegate {
+    
+    var tokenManager = TokenManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        tokenManager.delegate = self
+        tokenManager.getToken { token, delegate in
+            self.tokenManager.token = token
+            delegate.didUpdateToken(tokenManager: self.tokenManager, token: token)
+            print(token)
+        }
+        print("hello")
+        //        getUserName()
     }
-
-
+    
+    func didUpdateToken(tokenManager: TokenManager, token: Token) {
+        print("didUpdatetoken")
+//        do {
+//            try await token.getUserName()
+//            self.tokenManager = token
+//        } catch {
+//
+//        }
+    }
 }
+  
 
