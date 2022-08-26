@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'sma2022_Example' do
+  pod 'sma2022', :path => '../'
+
+  target 'sma2022_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

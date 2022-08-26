@@ -1,0 +1,9 @@
+platform :ios, '15.2'
+
+target 'Day08' do
+
+  use_frameworks!
+
+  pod 'Alamofire', '~> 4.8.2'
+
+end
