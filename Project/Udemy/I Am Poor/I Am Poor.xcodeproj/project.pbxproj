@@ -13,6 +13,7 @@
 		CD5560F528A37C9B00846C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5560F328A37C9B00846C8B /* Main.storyboard */; };
 		CD5560F728A37C9C00846C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5560F628A37C9C00846C8B /* Assets.xcassets */; };
 		CD5560FA28A37C9C00846C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5560F828A37C9C00846C8B /* LaunchScreen.storyboard */; };
+		CDAF569328B5ED2C005B7C3D /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAF569228B5ED2C005B7C3D /* DemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD5560F628A37C9C00846C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD5560F928A37C9C00846C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5560FB28A37C9C00846C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAF569228B5ED2C005B7C3D /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CD5560ED28A37C9B00846C8B /* AppDelegate.swift */,
 				CD5560EF28A37C9B00846C8B /* SceneDelegate.swift */,
 				CD5560F128A37C9B00846C8B /* ViewController.swift */,
+				CDAF569228B5ED2C005B7C3D /* DemoView.swift */,
 				CD5560F328A37C9B00846C8B /* Main.storyboard */,
 				CD5560F628A37C9C00846C8B /* Assets.xcassets */,
 				CD5560F828A37C9C00846C8B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5560F228A37C9B00846C8B /* ViewController.swift in Sources */,
+				CDAF569328B5ED2C005B7C3D /* DemoView.swift in Sources */,
 				CD5560EE28A37C9B00846C8B /* AppDelegate.swift in Sources */,
 				CD5560F028A37C9B00846C8B /* SceneDelegate.swift in Sources */,
 			);
