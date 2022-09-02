@@ -89,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				CDA0E5E22870200600713C7A /* MapListApp.swift */,
-				CDC449D7288C31D100EED436 /* ListLow.swift */,
 				CDA0E5E42870200600713C7A /* ContentView.swift */,
 				CDA0E5F728713E1300713C7A /* Model */,
 				CDA0E5F628713E0100713C7A /* View */,
@@ -110,6 +109,7 @@
 		CDA0E5F628713E0100713C7A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDC449D7288C31D100EED436 /* ListLow.swift */,
 				CD2EC3E128856FCF00DA3D07 /* LaunchScreen.swift */,
 				CDA0E5F0287025F200713C7A /* MyScreen.swift */,
 				CDA0E5F828714FBE00713C7A /* MapView.swift */,

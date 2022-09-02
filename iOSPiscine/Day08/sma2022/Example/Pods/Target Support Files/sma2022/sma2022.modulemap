@@ -1,6 +1,0 @@
-framework module sma2022 {
-  umbrella header "sma2022-umbrella.h"
-
-  export *
-  module * { export * }
-}
